@@ -23,7 +23,7 @@ class Main {
          
       }
       if (read.equals("2")) {
-        System.out.println("US News - 100 Best Jobs!"+);
+        System.out.println("US News - 100 Best Jobs!");
         
       }
       if (read.equals("3")) {
