@@ -10,24 +10,24 @@ class Main {
     Scanner scanner = new Scanner(System.in);
     
     do {
-      System.out.println("Press 1 to learn about salary. "+"\n");
-      System.out.println("Press 2 to learn about the job. "+"\n");
-      System.out.println("Press 3 to learn about demand. "+"\n");
-      System.out.println("Press 4 to view current students. "+"\n");
-      System.out.println("Press 5 to quit. "+"\n");
+      System.out.println("Press 1 to learn about salary. ");
+      System.out.println("Press 2 to learn about the job. ");
+      System.out.println("Press 3 to learn about demand. ");
+      System.out.println("Press 4 to view current students. ");
+      System.out.println("Press 5 to quit. ");
       
       String read = scanner.next();
       
       if (read.equals("1")) {
-        System.out.println("$98,345 average salary in South Florida! ") ;
+        System.out.println("$98,345 average salary in South Florida! "+"\n") ;
          
       }
       if (read.equals("2")) {
-        System.out.println("US News - 100 Best Jobs!");
+        System.out.println("US News - 100 Best Jobs!"+"\n");
         
       }
       if (read.equals("3")) {
-        System.out.println("Top 10 Forbes In-Demand Jobs!");
+        System.out.println("Top 10 Forbes In-Demand Jobs!"+"\n");
         
       }
       if (read.equals("4")) {
