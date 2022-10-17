@@ -19,19 +19,19 @@ class Main {
       String read = scanner.next();
       
       if (read.equals("1")) {
-        System.out.println("$98,345 average salary in South Florida! "+"\n") ;
+        System.out.println("$98,345 average salary in South Florida! ") ;
          
       }
       if (read.equals("2")) {
-        System.out.println("US News - 100 Best Jobs!"+"\n");
+        System.out.println("US News - 100 Best Jobs!");
         
       }
       if (read.equals("3")) {
-        System.out.println("Top 10 Forbes In-Demand Jobs!"+"\n");
+        System.out.println("Top 10 Forbes In-Demand Jobs!");
         
       }
       if (read.equals("4")) {
-        System.out.println("Current Students:"+"\n");
+        System.out.println("Current Students:");
         BufferedReader br = new BufferedReader(new FileReader("names.txt"));
  
     try {
