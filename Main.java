@@ -19,7 +19,7 @@ class Main {
       String read = scanner.next();
       
       if (read.equals("1")) {
-        System.out.println("$98,345 average salary in South Florida! ") ;
+        System.out.println("$98,345 average salary in South Florida!") ;
          
       }
       if (read.equals("2")) {
@@ -27,7 +27,7 @@ class Main {
         
       }
       if (read.equals("3")) {
-        System.out.println("Top 10 Forbes In-Demand Jobs!"+"\n");
+        System.out.println("Top 10 Forbes In-Demand Jobs!");
         
       }
       if (read.equals("4")) {
